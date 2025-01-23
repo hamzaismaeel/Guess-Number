@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h2{
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.guess-box{
+ margin-top: 30px;
+}
+.sentence{
+    font-size: 19px;
+}
+.numberInput{
+    width: 18rem;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+.btn{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.startGameBtn{
+    padding: 10px 16px;
+    background-color: #0ff;
+    border: 1px solid grey;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.startGameBtn:disabled{
+    cursor: not-allowed;
+}
+.submitBtn{
+    cursor: pointer;
+}
+.result{
+    margin-top: 20px;
+}
+.guessDisplay{
+    margin-top: 20px;
+}
